@@ -19,7 +19,7 @@ body {
 }
 
 .navbar {
-    background-color: #343a40; /* Cor escura para a navbar */
+    background-color: #09814A; /* Cor escura para a navbar */
     padding: 10px;
     display: flex;
     align-items: center;
@@ -51,27 +51,78 @@ body {
 }
 
 .banner {
-    background-color: #ff6b81;
-    color: #ffffff;
+    background-color: #eef5e9;
+    color: #000;
+    padding: 60px 20px;
     text-align: center;
-    padding: 80px 20px;
 }
 
+.banner h1 {
+    font-size: 2.5rem;
+    color: #006d40;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Container Principal */
 .container {
-    flex: 1;
-    padding: 20px;
+    padding: 80px;
     text-align: center;
-    background-color: #e68d8d; /* Cor rosa */
+    background-color: #ffffff; /* Fundo mais neutro */
+    border-radius: 10px;
+    box-shadow: 0 6px 12px #000000; /* Sombra no container */
 }
 
 h2 {
-    color: #ff6b81;
+    color: #006d40;
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #000000;
+}
+
+/* Botões */
+.btn {
+    background-color: #006d40;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+    background-color: #128230;
+    transform: translateY(-3px); /* Pequeno movimento ao hover */
+}
+
+h2 {
+    color: #6ee96e;
     margin-bottom: 20px;
     font-weight: bold;
 }
+.imgsbenefecios
+ {
+    width: 100%;
+    max-width:200px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+ }
 
 .footer {
-    background-color: #343a40; 
+    background-color: #09814A; 
     color: white; 
     text-align: center;
     padding: 20px 0;
@@ -84,7 +135,7 @@ h2 {
 }
 
 .btn {
-    background-color: #ffda63; 
+    background-color: #09814A; 
     color: #000;
     padding: 10px 20px;
     border: none;

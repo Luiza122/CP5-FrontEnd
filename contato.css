@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #ffffff; 
+}
+
+.logo {
+    height: 50px; 
+    width: auto;  
+    margin-right: 10px; 
+}
+
+.navbar {
+    background-color: #09814A; /* Cor escura para a navbar */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; /* Permite que os itens se movam em várias linhas se necessário */
+}
+
+.navbar-brand {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-links {
+    margin-left: auto; /* Alinha os links à direita */
+}
+
+.navbar-links ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-links li {
+    margin-left: 20px;
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.container {
+    max-width: 600px; /* Largura máxima do contêiner */
+    margin: 2rem auto; /* Centraliza o contêiner */
+    padding: 2rem; /* Preenchimento interno */
+    background-color: white; /* Cor de fundo do contêiner */
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+h2 {
+    font-size: 24px; /* Tamanho do título */
+    color: #000000; /* Cor do título */
+    text-align: center; /* Centraliza o texto */
+    margin-bottom: 1.5rem; /* Margem inferior */
+}
+
+.form-group {
+    margin-bottom: 1.5rem; /* Margem inferior entre os grupos de formulário */
+}
+
+label {
+    display: block; /* Exibe o rótulo como bloco */
+    font-weight: bold; /* Fonte em negrito */
+    color: #000000; /* Cor do rótulo */
+    margin-bottom: 0.5rem; /* Margem inferior */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%; /* Largura total */
+    padding: 0.5rem; /* Preenchimento interno */
+    border: 1px solid #000000; /* Borda */
+    border-radius: 4px; /* Cantos arredondados */
+    transition: border-color 0.3s; /* Efeito de transição suave */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #86e27a; /* Cor da borda quando focado */
+    outline: none; /* Remove a borda de foco padrão */
+}
+
+textarea {
+    resize: none; /* Desabilita o redimensionamento da textarea */
+    min-height: 100px; /* Altura mínima da textarea */
+}
+
+.btn {
+    background-color: #86e27a; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    padding: 0.5rem 1rem; /* Preenchimento interno */
+    border: none; /* Sem borda */
+    border-radius: 4px; /* Cantos arredondados */
+    
+}
+
+.btn:hover {
+    background-color: #86e27a; /* Cor de fundo ao passar o mouse */
+}
+
+.btn:focus {
+    outline: none; /* Remove a borda de foco padrão do botão */
+}
+.footer {
+    background-color: #09814A; 
+    color: white; 
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 0.9rem; 
+}
+
+.btn {
+    background-color: #09814A; 
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Empilha os itens em telas menores */
+    }
+
+    .navbar-links {
+        margin-top: 10px; /* Adiciona espaçamento acima dos links */
+    }
+
+    .navbar-links ul {
+        flex-direction: column; /* Alinha links verticalmente */
+    }
+
+    .navbar-links li {
+        margin: 5px 0; /* Adiciona espaçamento entre os itens da lista */
+    }
+
+    .banner {
+        padding: 60px 20px; /* Reduz o padding do banner */
+    }
+
+    h1 {
+        font-size: 1.8rem; /* Ajusta o tamanho do título */
+    }
+
+    h2 {
+        font-size: 1.5rem; /* Ajusta o tamanho do subtítulo */
+    }
+
+    .btn {
+        padding: 10px 15px; /* Ajusta o padding do botão */
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem; /* Reduz ainda mais o tamanho do título */
+    }
+
+    h2 {
+        font-size: 1.2rem; /* Reduz ainda mais o tamanho do subtítulo */
+    }
+}
