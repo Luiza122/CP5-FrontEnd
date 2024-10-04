@@ -188,3 +188,18 @@ h2 {
         font-size: 1.2rem;
     }
 }
+
+
+.titulo_p {
+    color: black;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.Musicas_corpo {
+    padding: 80px;
+    text-align: center;
+    background-color: #c7f0c3;
+}
