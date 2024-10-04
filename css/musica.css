@@ -105,7 +105,7 @@ p {
 
 .btn:hover {
     background-color: #128230;
-    transform: translateY(-3px); /* Pequeno movimento ao hover */
+    transform: translateY(-3px); 
 }
 
 h2 {
