@@ -203,3 +203,21 @@ h2 {
     text-align: center;
     background-color: #c7f0c3;
 }
+
+
+
+.funcionalidades, .musicas_lista {
+    margin-bottom: 50px; 
+}
+
+.Musicas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.Musicas > div {
+    flex-basis: 45%; 
+    margin-bottom: 30px;
+}
