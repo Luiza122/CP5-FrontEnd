@@ -188,3 +188,24 @@ h2 {
         font-size: 1.2rem;
     }
 }
+
+.beneficios_corpo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+  }
+  
+ 
+  .beneficios_corpo > div {
+    flex: 0 0 50%; 
+    box-sizing: border-box; 
+    padding: 10px; 
+    text-align: justify; 
+  }
+    
+
+.titulo_beneficios{
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+}
