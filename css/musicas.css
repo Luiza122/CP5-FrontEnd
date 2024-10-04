@@ -11,7 +11,7 @@ body {
     min-height: 100vh;
     background-color: #ffffff; 
 }
-.img_logo{
+.img_logo {
     width: 60px;
     height: 60px;
 }
@@ -51,7 +51,7 @@ body {
     text-decoration: none;
     font-weight: bold;
 }
-.titulo{
+.titulo {
     text-align: center;
     height: 30px;
 }
@@ -189,7 +189,6 @@ h2 {
     }
 }
 
-
 .titulo_p {
     color: black;
     margin-bottom: 20px;
@@ -197,14 +196,11 @@ h2 {
     text-align: center;
 }
 
-
 .Musicas_corpo {
     padding: 80px;
     text-align: center;
     background-color: #c7f0c3;
 }
-
-
 
 .funcionalidades, .musicas_lista {
     margin-bottom: 50px; 
@@ -214,10 +210,12 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    
 }
 
 .Musicas > div {
     flex-basis: 45%; 
     margin-bottom: 30px;
 }
+
+
+
